@@ -1,0 +1,73 @@
+body{
+    /* used google font */
+    font-family: 'Inter', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.section-1{
+    position: absolute;
+    width: 1321px;
+    height: 612px;
+    margin: 50px 60px 0px 280px;
+    background: #110F56 ;
+    border-radius: 30px;
+}
+.s1-main{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 40px;
+}
+.about-worldcup{
+    width: 531px;
+    height: 424px;
+    margin: 161px 0px 0px 120px;
+    color: white;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 20px;
+}
+.about-worldcup .about-livefeed>h1{
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+.about-worldcup .about-livefeed>p{
+    margin: 0px;
+}
+.about-livefeed-link{
+    background-color: #F7931E ;
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    padding: 10px 5px 0px 5px;
+    
+}
+.about-worldcup .about-livefeed-link>a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.arrow{
+    border: solid rgb(254, 253, 253);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;}
+.right{
+    transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.about-worldcup .about-livefeed-link>i{
+    margin: 0px 0px 0px 10px;
+}
+.cover-pic{
+    width: 581px;
+    height: 613px;
+    margin: 0px 0px 0px 90px;
+}
+.cover-pic img{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}

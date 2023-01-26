@@ -216,3 +216,34 @@ hr{
 .footer-icons i{
     margin: 15px;
 }
+/* 2nd page */
+/* section 2 */
+.match-schedule{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0px -15px 0px 50px;
+}
+.live-match{
+    width: 312px;
+    height: 242px;
+    box-shadow: 0.3px 0.3px 3px rgba(128, 128, 128, 0.72);
+    text-align: center;
+    margin: 15px 15px 0px 0px;
+    border-radius: 10px;
+}
+.flags{
+    display: flex;
+    justify-content: center;
+    margin: 53px 0px 20px 0px;
+}
+.flags img{
+    width: 93px;
+    height: 56px;
+    
+}
+.flags h3{
+    margin: 15px 20px 0px 20px;
+}
+.live-match .match-info p{
+    color: grey;
+}

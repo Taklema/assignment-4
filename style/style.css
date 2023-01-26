@@ -5,13 +5,22 @@ font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
 }
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 60px 0px;
+}
 .section-1{
-    position: absolute;
+    /* position: absolute; */
     width: 1321px;
     height: 612px;
-    margin: 50px 60px 0px 280px;
+    left: 140px;
+    top: 50px;
+    /* margin: 50px 60px 0px 280px; */
     background: #110F56 ;
     border-radius: 30px;
+    align-items: center;
 }
 .s1-main{
     position: absolute;
@@ -28,12 +37,12 @@ font-family: 'Poppins', sans-serif;
     grid-template-rows: repeat(3, 1fr);
     row-gap: 20px;
 }
-.about-worldcup .about-livefeed>h1{
+.about-worldcup .about-livefeed h1{
     font-size: 40px;
     margin: 0px;
     padding: 0px;
 }
-.about-worldcup .about-livefeed>p{
+.about-worldcup .about-livefeed p{
     margin: 0px;
 }
 .about-livefeed-link{
@@ -45,7 +54,7 @@ font-family: 'Poppins', sans-serif;
     padding: 10px 5px 0px 5px;
     
 }
-.about-worldcup .about-livefeed-link>a{
+.about-worldcup .about-livefeed-link a{
     text-decoration: none;
     color: white;
     font-size: 15px;
@@ -70,4 +79,112 @@ font-family: 'Poppins', sans-serif;
 .cover-pic img{
     margin-bottom: 0px;
     padding-bottom: 0px;
+}
+
+/* section-2 */
+.section-2{
+    left: 140px;
+    width: 1321px;
+    margin-top: 90px;
+}
+.s2-main{
+    display: flex;
+}
+.menu{
+    width: 312px;
+    height: 230px;
+    margin: 15px 15px 0px 0px;
+    background-color: #110F56;
+    border-radius: 10px;
+}
+.menu .menu-btn-match a{
+    text-decoration: none;
+    background-color: #F7931E;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    padding: 15px 20px 17px 20px;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: grid;
+}
+.menu .menu-btn a{
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+    padding: 15px 20px 17px 20px;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: grid;
+}
+.menu .menu-btn-blog a{
+    text-decoration: none;
+    background-color: #F7931E;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    padding: 15px 20px 17px 20px;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: grid;
+}
+.blogs-main-div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0px -15px 0px 50px;
+}
+.blogs{
+    width: 312px;
+    height: 390px;
+    margin: 15px 15px 0px 0px;
+    border-radius: 10px;
+    box-shadow: 0.3px 0.3px 3px rgba(128, 128, 128, 0.72);
+}
+.blogs .blog img{
+    width: 312px;
+    height: 175px;
+    border-radius: 10px 10px 0px 0px;
+}
+.blog .info{
+    margin: 20px;
+}
+.blog .info a{
+    text-decoration: none;
+    width: 100px;
+    height: 32px;
+    border: 1.5px solid #110F56;
+    border-radius: 5px;
+    font-size: 12px;
+    color: black;
+    font-weight: 700;
+    padding: 5px 15px;  
+}
+.info .icons .time{
+    text-align: left;
+}
+.info .icons .time p{
+    display: inline;
+    margin-left: 8px;
+}
+.info .icons .comments{
+    text-align: right;
+}
+.info .icons .comments p{
+    display: inline;
+    margin-left: 8px;
+}
+.info .icons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 143px;
+    height: 26px;
+    color: grey;
 }

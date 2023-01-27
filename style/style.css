@@ -16,15 +16,15 @@ main{
     /* position: absolute; */
     width: 1321px;
     height: 612px;
-    left: 140px;
-    top: 50px;
+    /* left: 140px;
+    top: 50px; */
     /* margin: 50px 60px 0px 280px; */
     background: #110F56 ;
     border-radius: 30px;
     align-items: center;
 }
 .s1-main{
-    position: absolute;
+    /* position: absolute; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 40px;
@@ -78,6 +78,8 @@ main{
     margin: 0px 0px 0px 90px;
 }
 .cover-pic img{
+    width: 408px;
+    height: 612px;
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
